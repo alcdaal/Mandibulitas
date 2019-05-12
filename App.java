@@ -1,16 +1,16 @@
 public class App{
 	public static void main (String[]args){
 		Catalogo Principal = new Catalogo();
-		new Producto("Tenis",1231,300f,Principal);
-		new Producto("Maleta",3231,1200f,Principal);
-		new Producto("Chamarra",7831,500f,Principal);
+		new Producto("Worms",1231,300f,Principal);
+		new Producto("CoDMWIII",3231,1200f,Principal);
+		new Producto("Civilization",7831,500f,Principal);
 		new Producto("Camisa",4435,250f,Principal);
-		new Producto("GameBoy",7771,1000f,Principal);
+		new Producto("IronMan",7771,1000f,Principal);
 		new Producto("Barbie",9070,400f,Principal);
 		new Producto("HotWheels",3422,170f,Principal);
 		new Producto("Torta",1212,15f,Principal);
 		new Producto("Martillo",9901,70f,Principal);
-		new Producto("Mini Carro",6745,3000f,Principal);
+		new Producto("StormBreaker",6745,3000f,Principal);
 		Carro Car1 = new Carro("Pancho",10732,Principal);
 		Carro Car2 = new Carro("Angy",10956,Principal);
 		Carro Car3 = new Carro("Rugal",10097,Principal);
